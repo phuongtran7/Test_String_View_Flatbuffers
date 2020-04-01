@@ -18,5 +18,16 @@
     <ClCompile Include="Test_String_View_Flatbuffers.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="MQTT_Client.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MQTT_Client.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="synchronized_value.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
