@@ -96,7 +96,7 @@ private:
 
 public:
 	// Publisher
-	MQTT_Client(std::string address, std::string topic, int qos);
+	//MQTT_Client(std::string address, std::string topic, int qos);
 	MQTT_Client(std::string_view address, std::string_view topic, int qos);
 
 	// Subscriber
